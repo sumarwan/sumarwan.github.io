@@ -1,0 +1,185 @@
+* {
+	margin: 0px; padding: 0px;  
+	font-family: 'Inconsolata', monospace;font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+ img{
+	max-width: 100%; max-height: 100%;  
+}
+
+/*--bagian pertama --*/
+#pertama {
+	background: url('bok.jpg'); no-repeat; 
+	background-size: cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-moz-background-size:cover;
+
+	height: 650px;
+	padding-top: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+.konten{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.kolom_3{
+	width: 300px; float: left; 
+}
+
+.kolom_3_tengah{
+	margin: 0 30px;
+}
+
+#logo{
+	display: block;width: 100px;margin: 0 auto;
+}
+
+#menu{
+	background-color: #0074b9;
+	height: 50px; line-height: 50px;
+	font-size: 20px; margin-top: 20px;
+}
+#menu a{
+	display: block;text-align: center;color: white; 
+}
+
+#menu a:hover{
+	background-color: #2c9ddd;
+}
+
+
+.list
+{
+	text-align	: center;
+}
+
+/* Dikunjungi */
+.menu:link
+{
+	background	: pink;
+	color		: white;
+}
+
+/* Mouse */
+.menu:hover
+{
+	background	: #f442d1;
+	color		: Black;
+}
+
+#tengah{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* Berada
+.menu:active
+{
+	background	: red;
+	color		: white;
+} */
+
+.deo
+{
+	text-align: left;
+	position: absolute;
+}
+
+.deod
+{
+	text-align: right;
+}
+.menu
+{
+	color			: rgb(255,255,255);
+	font-family		: sans-serif;
+	text-align		: center;
+	font-size		: 20px;
+	background		: pink;
+	display			: inline-block;
+	width			: 150px;
+	text-decoration	: none;
+	border			: 3px solid black;
+	border-radius	: 10px;
+	padding			: 10px;
+	margin-left: : 30px;
+}
+
+.menu1
+{
+	color			: black;
+	text-align		: center;
+	font-size		: 15px;
+	display			: inline-block;
+	width			: 400px;
+	text-decoration	: none;
+	border			: 3px solid black;
+	border-radius	: 10px;
+	padding			: 10px;
+	margin-bottom: 25px;
+	background-color: rgb(23, 211, 158);
+	position: relative;
+}
+
+
+.Legend
+{
+	color			: white;
+	text-align		: center;
+	font-family		: Inconsolata;
+	background		: black;
+	display			: inline-block;
+	width			: 150px;
+	border			: 3px solid grey;
+	border-radius	: 10px;
+	padding			: 10px;
+}
+
+#judul{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.legend:hover {
+	background-color: blue;
+	font-size: 14px;
+	transition: 1s;
+}
+
+.Legend1
+{
+	text-align		: Left;
+	font-family		: Inconsolata;
+	padding: 1px;
+}
+
+
+/*--bagian footer--*/
+
+.footer{
+	background-color: #0074b9;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin-top:20px; 
+}
+.footer:hover{
+	background-color: aqua;
+	color :red;
+	transition: 1s;
+
+}
